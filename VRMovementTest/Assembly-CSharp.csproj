@@ -902,6 +902,9 @@
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARKit.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
@@ -917,20 +920,32 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARSubsystems.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.Management">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.ARSubsystems">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARKit.FaceTracking">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Animation.Rigging.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.ARKit">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -941,14 +956,20 @@
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -1017,13 +1038,13 @@
       <Project>{D504ADC6-9E7D-FB56-45AF-1A8A35F755CC}</Project>
       <Name>AssistantCoreSDKEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Voice.Demo.csproj">
-      <Project>{D85D407F-7CB9-15EF-F296-2EF5DABBFE9E}</Project>
-      <Name>Oculus.Voice.Demo</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.csproj">
       <Project>{22B91288-72FC-0354-A570-9BB41666459B}</Project>
       <Name>Oculus.AudioManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Voice.Demo.csproj">
+      <Project>{D85D407F-7CB9-15EF-F296-2EF5DABBFE9E}</Project>
+      <Name>Oculus.Voice.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Common.csproj">
       <Project>{E1CAD9E6-3A75-7177-E9CE-210E81B4B4D2}</Project>
@@ -1137,6 +1158,10 @@
       <Project>{14C944A3-15B6-5FE6-F3B9-5BE20309B4BB}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
+      <Project>{D0FF156A-E283-CADC-CB4E-CEC636A0A0D7}</Project>
+      <Name>Unity.XR.Management.Samples.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.Editor.csproj">
       <Project>{98C44000-FBA0-A597-B2C8-BBB706BE0E73}</Project>
       <Name>Meta.WitAi.Conduit.Editor</Name>
@@ -1169,6 +1194,10 @@
       <Project>{E21105D2-3B48-F613-7365-BD5058A756C4}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{F8C19718-C679-1CA5-13D6-5827B6612172}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.Samples.csproj">
       <Project>{B6C98B60-1B56-B885-0A03-C09F5F18BDF4}</Project>
       <Name>Meta.WitAi.TTS.Samples</Name>
@@ -1188,14 +1217,6 @@
     <ProjectReference Include="Meta.Voice.Hub.Runtime.csproj">
       <Project>{21CDFDE8-6C38-F85C-D907-BEAC87F88CE6}</Project>
       <Name>Meta.Voice.Hub.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{F8C19718-C679-1CA5-13D6-5827B6612172}</Project>
-      <Name>Unity.XR.Management.Samples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{D0FF156A-E283-CADC-CB4E-CEC636A0A0D7}</Project>
-      <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

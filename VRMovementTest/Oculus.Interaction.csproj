@@ -242,8 +242,8 @@
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\UseGrab\HandGrabUseInteractor.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\ProximityField\BoxProximityField.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\Hands\HandPrimitives.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\Hands\DataModifiers\JointRotationHistoryModifier.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Visuals\InteractableDebugVisual.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\Hands\DataModifiers\JointRotationHistoryModifier.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\DataModifier.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Movements\MoveTowardsTargetProvider.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Core\IInteractableFilter.cs" />
@@ -377,8 +377,8 @@
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Unity\PhysicsTransformable.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\OVRIntegration\OVRSkeletonDataProviders.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\OneEuroFilter\OneEuroFilter.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabTarget.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\Controllers\ControllerDataAsset.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabTarget.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Pointable\PointerInteractable.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Surfaces\AxisAlignedBox.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Selection\Hands\HandWristOffset.cs" />

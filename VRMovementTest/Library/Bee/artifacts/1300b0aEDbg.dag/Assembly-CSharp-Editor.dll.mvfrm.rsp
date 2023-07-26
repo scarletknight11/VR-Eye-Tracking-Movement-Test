@@ -11,6 +11,7 @@ Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_12912411083945D2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Analytics.ref.dll_CC4BDB495E8BC70C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Environments.ref.dll_3166FFB2F7BC4730.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Services.Core.ref.dll_AF203140D634E744.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Subsystem.Registration.ref.dll_F55E115723DEF1F9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_BF6AC3C71CAA8CC0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_BC3B5CE4CA86DA8D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.ref.dll_9A34A38FCDEB0C06.mvfrm
@@ -28,6 +29,12 @@ Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Shared.Editor.ref.dll_4001A5F
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.Editor.ref.dll_C201EBD4F8323092.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.ref.dll_BD4E09F68F0E7D0F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualStudio.Editor.ref.dll_AC85F13A47E869BA.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARKit.Editor.ref.dll_D16C804414727A0F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARKit.FaceTracking.Editor.ref.dll_4DE7C67859DF525B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARKit.FaceTracking.ref.dll_07A98E8B31EF92B6.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARKit.ref.dll_01C37B5B2A807FC2.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARSubsystems.Editor.ref.dll_2E185E6844736A93.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.ARSubsystems.ref.dll_42DA70557FA956FE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.Editor.ref.dll_B1A140CB4F8C5DF5.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.Samples.Editor.ref.dll_9330C4ED1840D8EA.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.Samples.ref.dll_3EB7C8E531DB2F37.mvfrm
